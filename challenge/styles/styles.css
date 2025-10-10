@@ -1,0 +1,36 @@
+* {
+    background-color: #3b89b3;
+}
+header {
+    margin: 0 auto;
+    color: white;
+    width: 400px;
+    text-align: center;
+}
+header h1:hover{
+    color:black;
+}
+img {
+    width: 150px;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.four-articles p {
+    margin: 0 auto;
+    width: 400px;
+    font-weight: bold;
+}
+#cite h2 {
+    color: white;
+    margin: 0 auto;
+    width: 225px;
+    margin-bottom: 20px;
+}
+footer p{
+    text-align: center;
+    width: 325px;
+    margin:0 auto;
+    margin-bottom: 0px;
+}
