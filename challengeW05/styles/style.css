@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+}
+main {
+    margin: 0;
+    background-color: grey;
+    width: 1280px;
+}
+#main-image {
+    margin: 0;
+    width: 100%;
+    display: block;
+}
+footer {
+    height: 350px;
+    background-color: grey;
+    width: 1280px;
+    margin: 0;
+}
+footer img {
+    width: 20%;
+    background-color:rgb(70, 68, 68);
+    border-radius: 50%;
+    margin: 40px 60px;
+    padding: 1%;
+
+}
