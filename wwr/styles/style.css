@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Michroma&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -6,6 +7,7 @@ nav a {
     text-align: center;
     color:#00357a;
     text-decoration: none;
+    padding: 35px;
 }
 #hero-msg h1 {
     text-align: center;
@@ -24,6 +26,13 @@ main section {
 }
 body {
     background-color: #e5e5e5;
+    font-family: "Open Sans", Michroma, sans-serif;
+    font-size: 22px;
+    padding: 0;
+    margin: 0;
+}
+h2 {
+    margin: 0;
 }
 header {
     background-color: #51a2a8;
@@ -36,19 +45,27 @@ nav a:hover {
     background-color: #00357a;
     color:#e5e5e5;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .join {
-    background-color: #e5e5e5;
+    background-color: #fca311;
     color:#00357a;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover {
     background-color: #fca311;
     color:#00357a; 
 }
- .join:hover {
-    background-color: #fca311;
-    color:#e5e5e5; 
+.join:hover {
+    background-color: #e5e5e5;
+    color:#fca311; 
  }
 #background {
     background-color: #51a2a8;
@@ -56,19 +73,29 @@ nav a:hover {
 .msg {
     background-color: #00357a;
     color: #e5e5e5;
+    line-height: 1.5em;
+    padding: 35px;
 }
 footer {
     background-color: #51a2a8;
     color: #00357a;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 .home-title {
     color:#00357a;
+    font-family: Michroma, "Open Sans", sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 .msg h2 {
     color: #e5e5e5;
+    font-family: Michroma, "Open Sans", sans-serif;
 }
 .msg p {
     color: #e5e5e5;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 footer a {
     color: #00357a;
@@ -83,6 +110,7 @@ footer a:hover {
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 #hero-img {
     width: 100%;
@@ -92,4 +120,19 @@ footer p {
 }
 footer p a:hover {
     text-decoration: underline;
+}
+#logo_link {
+    padding-top: 5px;
+}
+footer .social img {
+    padding-top: 15px;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid #51a2a8;
+}
+main section img {
+    box-sizing: border-box;
 }
