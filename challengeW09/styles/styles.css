@@ -9,11 +9,10 @@ main {
     display: grid;
     grid-template-columns: repeat(9, 1fr);
     grid-template-rows: repeat(6, 1fr);
-    height: 600px;
+    height: 555px;
 }
-div {
+#paragraph {
     background-color: white;
-    border-radius: 8px;
     grid-column: 4/7;
 }
 img {
@@ -23,28 +22,41 @@ img {
     background-color: black;
     width: 100%;
 }
-h4 {
+#paragraph h5 {
     color: rgb(86, 129, 209);
     grid-column: 4/7;
     grid-row: 4/5;
     text-align: center;
-    margin-bottom: -20px;
+    margin-top: 10px;
+    margin-bottom: -25px;
 }
-h1 {
+#paragraph h1 {
     text-align: center;
     grid-column: 4/7;
     grid-row: 4/5;
-    margin-top: 10px;
+   
 }
-p {
+#paragraph p {
+    font-size: 15px;
     text-align: center;
     color: grey;
 }
 * {
     border: 2px solid blue;
 }
-#read h3, #read h4{
-    color: grey;
-    background-color:  rgb(86, 129, 209);
-
+#read {
+    background-color:rgb(86, 129, 209);
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    grid-column: 4/5;
+    grid-row: 6/7;
+    color: white;
+    font-size: 10px;
 }
+#read p {
+    color: white; 
+}
+#view {
+    grid-column: 4/5;
+}
+

@@ -198,6 +198,91 @@ nav {
     grid-row: 5/8;
     box-shadow: 5px 5px 10px #6f7364;
 }
+/* SUB-PAGE*/
+#intro {
+    color: #00357a;
+    font-size: 25px;
+}
+#Idaho {
+    display: grid;
+    grid-template-columns: 1fr 5px 2fr;
+}
+#Idaho h2 {
+    grid-column: 1/4;
+    text-align: center;
+    color: #00357a;
+    text-decoration: underline;
+    background-color: #51a2a8;
+}
+#Idaho-river {
+    grid-column: 1/2;
+    width: 100%;
+    padding: 25px;
+    background-color: #51a2a8;
+}
+#Idaho-par {
+    grid-column: 3/4;
+    font-size: 20px;
+    color: #00357a;
+    padding: 25px;
+    text-align: justify;
+    background-color: #51a2a8;
+}
+
+#Utah {
+    display: grid;
+    grid-template-columns: 1fr 5px 2fr;
+}
+#Utah h2 {
+    grid-column: 1/4;
+    text-align: center;
+    color: #00357a;
+    text-decoration: underline;
+}
+#Utah-par {
+    grid-column: 2/4;
+    font-size: 20px;
+    color: #00357a;
+    padding: 20px;
+    text-align: justify;
+}
+#Utah-river {
+    grid-column: 1/2;
+    width: 90%;
+    height: 90%;
+    padding: 20px;
+}
+
+#Arizona {
+    display: grid;
+    grid-template-columns: 1fr 5px 2fr;
+}
+#Arizona h2 {
+    grid-column: 1/4;
+    text-align: center;
+    color: #00357a;
+    text-decoration: underline;
+    background-color: #51a2a8;
+}
+#Arizona-river {
+    grid-column: 1/2;
+    width: 100%;
+    padding: 25px;
+    background-color: #51a2a8;
+}
+#Arizona-par {
+    grid-column: 3/4;
+    font-size: 20px;
+    color: #00357a;
+    padding: 25px;
+    text-align: justify;
+    background-color: #51a2a8;
+}
+#river-footer {
+    margin-top: 25px;
+}
+
+/* Media Query*/
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
