@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Michroma&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+:root {
+  /* change the values below to your colors from your palette */
+  --primary-color: #2f404c   ;
+  --secondary-color: #b59e73 ;
+  --accent1-color: #962e29;
+  --accent2-color: #81a4be;
+  /* change the values below to your chosen font(s) */
+  --heading-font: "Michroma";
+  --paragraph-font:  "Open Sans", sans-serif;
+}
+header {
+    background-color: #81a4be;
+    display: flex;
+    height: auto;
+    align-items: end;
+}
+header nav a {
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+    color: #2f404c;
+    padding: 5px 10px;
+    margin-left: 5rem;
+}
+header nav a:hover {
+    color: #b59e73;
+    background-color: #2f404c;
+}
+#intro h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    color: #2f404c;
+}
+main {
+    background-color: white;
+    height: auto;
+
+}
+main p {
+    text-align: justify;
+    font-size: larger;
+    font-weight: bold;
+    width: 95%;
+    margin: 0 auto;
+    color: #2f404c;
+}
+.intro-img {
+    width: 98%;
+    margin: 20px 10px;
+}
+h2 {
+    grid-column: 1/5;
+    grid-row: 1/2;
+    text-align: left;
+    height: auto;
+    margin-top: -10px;
+    margin-left: 10px;
+}
+.concepts {
+    margin-top: -20px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 275px 150px 180px;
+}
+#budget h3 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin-left: 10px;
+}
+#budget p {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+#income h3 {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    margin-left: 10px;
+}
+#income p {
+    grid-column: 1/3;
+    grid-row: 4/5;
+}
+#expenditure h3 {
+    color: #962e29;
+    grid-column: 1/2;
+    grid-row: 5/6;
+    margin-left: 10px;
+}
+#expenditure p {
+    color: #962e29;
+    grid-column: 1/3;
+}
+#budimg {
+    grid-column: 2/3;
+    grid-row: 1/5;
+    margin-left: auto;
+    margin-right: auto;
+}
+.exp-type {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 200px;
+}
+#fixed h4 {
+    color: #962e29;
+    grid-column: 1/2;
+    margin-left: 10px;
+}
+#fixed p {
+    color: #962e29;
+    grid-column: 1/2;
+}
+#variable h4 {
+    color: #962e29;
+    grid-column: 2/3;
+    margin-left: 10px;
+}
+#variable p {
+    color: #962e29;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+#interest h3 {
+    color: #962e29;
+    grid-column: 1/3;
+    margin-left: 10px;
+}
+#interest p {
+    color: #962e29;
+    grid-column: 1/3;
+    grid-row: 3/4;
+}
+#compound h4 {
+    grid-column: 1/3;
+    margin-left: 10px;
+}
+#compound p {
+    grid-column: 1/3;
+    grid-row: 3/4;
+}
+footer {
+    background-color: #81a4be;
+    padding: 25px 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+}
+footer a {
+    color: #2f404c;
+}
+footer p {
+    font-size: 1.2em;
+}
+footer a:hover {
+    color: #2f404c;
+    background-color: #b59e73;
+}
+footer .social img {
+    padding: 5px;
+}
+footer nav a {
+    flex-direction: column;
+        border: 2px solid blue;
+}
