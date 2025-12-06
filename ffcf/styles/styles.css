@@ -177,3 +177,31 @@ footer nav a {
     flex-direction: column;
     
 }
+/* Sub-page 1*/
+#paying {
+    display: grid;
+    grid-template-columns: 30% 30% 40%;
+    height: auto;
+}
+.text {
+    grid-column: 1/3;
+    margin-left: 10px;
+    margin-bottom: 5%;
+}
+.pay-img {
+    grid-column: 3/4;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+
+}
+.budget {
+    width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 2%;
+}
+
+
