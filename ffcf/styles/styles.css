@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Michroma&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
-:root {
-  /* change the values below to your colors from your palette */
-  --primary-color: #2f404c   ;
-  --secondary-color: #b59e73 ;
-  --accent1-color: #962e29;
-  --accent2-color: #81a4be;
-  /* change the values below to your chosen font(s) */
-  --heading-font: "Michroma";
-  --paragraph-font:  "Open Sans", sans-serif;
+
+h1{
+    font-family: "Bebas Neue";
+} 
+h2, h3, h4 {
+    font-family: Microma;
+    text-decoration: underline;
+}
+p, nav {
+    font-family: "Open sans";
 }
 header {
     background-color: #81a4be;
